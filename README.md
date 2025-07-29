@@ -33,11 +33,23 @@ pip install -r requirements.txt
 ⚙️ Configuración
 Crear archivo .env:
 
+# Linux 
 env
 FLASK_APP=app.py
 FLASK_ENV=development
 JWT_SECRET_KEY=tu_super_clave_secreta
+
+# windows 
+$env:FLASK_APP = "run.py"
+$env:FLASK_ENV = "development"
+$env:JWT_SECRET_KEY = "tu_super_clave_secreta"
+
+
+
 Inicializar base de datos:
+bash
+python db.py 
+
 
 bash
 flask shell
