@@ -7,4 +7,4 @@ if __name__ == '__main__':
         from app.models import Usuario
         from app.extensions import db
         db.create_all()
-    app.run(debug=True)
+    app.run(debug=True, port=8020)
