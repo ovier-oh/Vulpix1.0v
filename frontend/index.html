@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login & Registro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Registro</h2>
+    <input type="text" id="reg-nombre" placeholder="Nombre" />
+    <input type="password" id="reg-contraseña" placeholder="Contraseña" />
+    <button onclick="registrar()">Registrar</button>
+
+    <h2>Login</h2>    
+    <input type="text" id="login-nombre" placeholder="Nombre" />
+    <input type="password" id="login-contraseña" placeholder="Contraseña" />
+    <button onclick="login()">Login</button>
+
+    <h2>Ruta Protegida</h2>
+    <button onclick="accederProtegido()">Acceder</button>
+    <p id="respuesta"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
