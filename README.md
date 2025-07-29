@@ -17,10 +17,6 @@ API RESTful para autenticación de usuarios usando Flask, JWT (JSON Web Tokens) 
 - Flask-Bcrypt
 
 ## 🛠️ Instalación
-```bash
-# Clonar repositorio
-git clone https://github.com/tu-usuario/flask-jwt-auth.git
-cd flask-jwt-auth
 
 # Crear y activar entorno virtual
 python -m venv .venv
