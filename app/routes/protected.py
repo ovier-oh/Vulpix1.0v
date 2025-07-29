@@ -9,4 +9,4 @@ protected_bp = Blueprint('protected', __name__)
 @jwt_required()
 def protegido():
     current_user = get_jwt_identity()
-    return jsonify({"mensaje": f"Bienvenido {current_user} (ruta protegida)"}), 200
+    return jsonify({"mensaje": f"{current_user} a iniciado sesion en (ruta protegida)"}), 200
